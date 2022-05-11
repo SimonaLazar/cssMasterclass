@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="2">
+    <tr>
+        <td><b>reteta de clatite</b></td>
+        <td><img src="images/clatite.png"/></td>
+    </tr>
+    <tr>
+    <td><b> Ingrediente</b>
+        <ul>
+            <li>350 faina</li>
+            <li>3 oua</li>
+            <li>50g unt topit</li>
+            <li>500 ml lapte rece</li>
+            <li>250 ml apa minerala</li>
+            <li>un praf de sare</li>
+            <li>optional: vanilie, coaja de lamaie</li>
+            <li>ulei pentru prajit</li>
+        </ul>
+    </td>
+    <td>
+        <ol>
+            <li><b>Timp de preparare </b>10 minute</li>
+            <li><b>Timp de gatire </b>2 minute</li>
+            <li><b>Timp Total </b>12 minute</li>
+        </ol>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <b> formular</b>
+            <br>
+            <br>
+            <form action="fisierul_generare.php" method="post">
+                <label for="numele tau"> nume si prenume</label>
+                <input id="numele tau" placeholder="numele tau" required type="text">
+                <br>
+                <label for="adresa de email"> adresa de email</label>
+                <input id="adresa de email" placeholder="Emailul tau" required type="email">
+                <br>
+                <label for="varsta"> varsta</label>
+                <select id="varsta" name="varsta">
+                    <option selected value="15-21">15-21</option>
+                    <option value="22-30">22-30</option>
+                    <option value="31-40">31-40</option>
+                </select>
+                <br>
+                <br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+        </td>
+        <td>
+            <b>masini preferate</b>
+            <form action="fisierul_generare.php" method="post">
+                <input id="bmw" name="masina" type="radio">
+                <label for="bmw"> bmw</label>
+                <br>
+                <input id="audi" name="masina" type="radio">
+                <label for="audi"> audi</label>
+                <br>
+                <input id="volvo" name="masina" type="radio">
+                <label for="volvo"> volvo</label>
+                <br>
+                <input id="mercedes" name="masina" type="radio">
+                <label for="mercedes"> mercedes</label>
+                <br>
+                <input type="reset" value="Reset">
+            </form>
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>
