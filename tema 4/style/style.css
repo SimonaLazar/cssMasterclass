@@ -1,0 +1,128 @@
+body {
+    /* HTML Color Picker*/
+    background: white;
+}
+
+.container {
+    background: black;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    position: relative;
+
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.purple {
+    background: purple;
+}
+
+.green {
+    background: green;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 100px;
+    bottom: 90px;
+
+}
+
+.pink {
+    background: pink;
+}
+
+.white {
+    background: white;
+}
+
+#vertical_rectangle {
+    position: absolute;
+    left: 180px;
+    top: 100px;
+    width: 50px;
+}
+
+#horizontal_rectangle {
+    position: absolute;
+    height: 50px;
+    right: 40px;
+    bottom: 20px;
+    width: 250px;
+}
+
+#first_blue_square {
+    top: 50px;
+    position: absolute;
+    left: 70px;
+}
+#second_blue_square {
+    top: 280px;
+    position: absolute;
+    right: 80px;
+}
+
+#white_rectangle {
+    width: 100px;
+    position: absolute;
+    height: 50px;
+    right: 50px;
+}
+
+#red_square {
+    top: 120px;
+    position: absolute;
+    right: 140px;
+}
+
+/*.blue_square {
+    background: blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+}
+.rectangle{
+    background: pink;
+    width:50px;
+    height:250px;
+    position:absolute;
+    left:180px;
+    top: 100px;
+
+}
+.purple_square{
+    background: purple;
+    width:50px;
+    height: 100px;
+    margin-top:50px;
+}
+.green_square{
+    background: green;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 100px;
+    bottom: 90px;
+
+}
+.red_square{
+    background: red;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 140px;
+
+}*/
